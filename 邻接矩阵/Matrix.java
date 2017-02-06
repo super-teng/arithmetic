@@ -1,9 +1,13 @@
 package 邻接矩阵;
 
 public class Matrix {
+<<<<<<< HEAD
 	
 	private char[] node;//邻接矩阵的点
 	
+=======
+	private char[] node;//邻接矩阵的点
+>>>>>>> 11ed81fa09fa0c4efe13ded27b218a9c191a29fc
 	private int[][] edgs;//邻接矩阵的边的集合
 	
 	//初始化构建邻接矩阵的方法
@@ -21,7 +25,10 @@ public class Matrix {
 			this.edgs[temp01][temp02] = 1;
 		}
 	}
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 11ed81fa09fa0c4efe13ded27b218a9c191a29fc
 	//查找当前节点所在位置
 	public int position(char t){
 		int result = 0;

@@ -16,7 +16,11 @@ public class Solution {
     		}
     	}
     	if(stack2.empty()){
+<<<<<<< HEAD
     		System.out.println("Empty");
+=======
+    		System.out.println("stack2 is Empty");
+>>>>>>> 11ed81fa09fa0c4efe13ded27b218a9c191a29fc
     		System.exit(0);
     	}
     	return stack2.pop();

@@ -9,11 +9,22 @@ public class InsertSort {
 			//用来当做比较标示索引
 			int index = i;
 			while(index>=1 && temp<data[index-1]){
+<<<<<<< HEAD
 				//后面的值等于前面一个
 				data[index] = data[index-1];
 				index--;
 			}
 			data[index] = temp; 
+=======
+				//二者进行交换
+				data[index] = data[index]^data[index-1];
+				data[index-1] = data[index]^data[index-1];
+				data[index] = data[index]^data[index-1];
+				//再与前面一个元素进行比较
+				index--;
+			}
+
+>>>>>>> 11ed81fa09fa0c4efe13ded27b218a9c191a29fc
 		}
 	}
 	//输出

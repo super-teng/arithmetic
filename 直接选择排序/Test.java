@@ -24,6 +24,7 @@ public class Test {
 		}
 	}
 	
+<<<<<<< HEAD
 	public void test(){
 		int d = 1;
 		synchronized("a"){
@@ -33,6 +34,9 @@ public class Test {
 			System.out.println(c);
 		}
 	}
+=======
+	
+>>>>>>> 11ed81fa09fa0c4efe13ded27b218a9c191a29fc
 	public static void main(String[] args){
 		//²âÊÔÊı¾İ
 		int[] array = {4,3,52,63,14,13,0,1,9,88};
@@ -41,8 +45,11 @@ public class Test {
 		for(int i=0;i<array.length;i++){
 			System.out.print(array[i]+" ");
 		}
+<<<<<<< HEAD
 		System.out.println("----------------");
 		System.out.println(2 | 2);
 		System.out.println(2 ^ 2);
+=======
+>>>>>>> 11ed81fa09fa0c4efe13ded27b218a9c191a29fc
 	}
 }
