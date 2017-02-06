@@ -1,7 +1,10 @@
 package 替换空格;
 
 import java.util.ArrayList;
+<<<<<<< HEAD
 import java.util.Stack;
+=======
+>>>>>>> 11ed81fa09fa0c4efe13ded27b218a9c191a29fc
 
 public class Solution {
 	//正常思路时间复杂度为O（N^2）
@@ -42,6 +45,10 @@ public class Solution {
         String result = new String(c2);
         ArrayList al = new ArrayList();
         Stack st = new Stack();
+<<<<<<< HEAD
+=======
+        st.i
+>>>>>>> 11ed81fa09fa0c4efe13ded27b218a9c191a29fc
         return result;
     }
 }

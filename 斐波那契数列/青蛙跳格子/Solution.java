@@ -17,6 +17,7 @@ public class Solution {
             return array[array.length-1];
         }
     }
+<<<<<<< HEAD
     public double Power(double base, int exponent) {
         if(base == 0){
             return 0;
@@ -47,4 +48,6 @@ public class Solution {
     	Solution s = new Solution();
     	System.out.println(s.Power(2, -3));
     }
+=======
+>>>>>>> 11ed81fa09fa0c4efe13ded27b218a9c191a29fc
 }
